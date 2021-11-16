@@ -1,0 +1,216 @@
+*{padding: 0; 
+    margin: 0}
+
+    header{
+        height: 100px;
+        width: 100%;
+        background-color: #ffffff;
+        opacity: 70%;
+        
+        
+    }
+
+    .logo{
+        height:70px;
+        width: 140px;
+        margin-left: 100px;
+        margin-top: 6px;
+        float: left;
+    }
+
+    body{
+        background-image: url(../img/k2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    .gota1 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 5%;
+        animation-name: gota1; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota1 
+{
+    0%{top: 22%;opacity: 100%;} 
+    70% {opacity: 100%;}
+    100% {top: 60%;opacity: 0%;}
+}
+
+    .gota2 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 80%;
+        animation-name: gota2; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota2 
+{
+    0%{top:35%;opacity: 100%;} 
+    70% {opacity: 100%;}
+    100% {top: 80%;opacity: 0%;}
+}
+
+   
+    .gota3 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 90%;
+        animation-name: gota3; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota3
+    {
+        0%{top: 20%;opacity: 100%;} 
+        70% {opacity: 100%;}
+        100% {top: 50%; opacity: 0%;}
+    }
+    
+
+
+    .gota4 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 68%;
+        animation-name: gota4; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota4
+{
+    0%{top: 30%;opacity: 100%;} 
+    70% {opacity: 100%;}
+    100% {top: 80%;opacity: 0%;}
+}
+
+    
+
+
+    .gota5 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 20%;
+        animation-name: gota5; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota5 
+{
+    0%{top: 25%;opacity: 100%;} 
+    70% {opacity: 100%;}
+    100% {top: 80%;opacity: 0%;}
+}
+
+
+
+
+    .gota6 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 30%;
+        animation-name: gota6; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota6 
+    {
+        0%{top: 60%;opacity: 100%;} 
+        70% {opacity: 100%;}
+        100% {top: 80%;opacity: 0%;}
+    }
+
+    .gota7 {
+        height: 100px;
+        width: 50px;
+        position: absolute; 
+        left: 10%;
+        animation-name: gota7; 
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;    
+    }
+
+    @keyframes gota7
+    {
+        0%{top: 50%;opacity: 100%;} 
+        70% {opacity: 100%;}
+        100% {top: 80%; opacity: 0%;}
+    }
+    .damn{
+        width: 500px;
+        height: 100px;
+        align-content: center;
+    
+    }
+
+    .cont{
+        margin-left: 350px;
+        margin-top: 60px;
+    }
+
+    .error{    
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 25px;
+    color: rgb(219, 64, 37);
+    
+    
+    }
+
+    .sangre{
+        height: 50px;
+        width: 80px;
+        margin-left: 50%;
+        margin-top: 30px;
+        animation-name: sangre;
+        position: absolute;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sangre{
+        0% {
+            opacity: 0%;
+            transform: scale(0);
+        }
+        100% {
+            opacity: 100%;
+            transform: scale(1.0);
+        }
+    }
+
+
+    
+
+    .musica{
+        
+        color:rgb(219, 64, 37) ;
+        background-color: #ffffff;
+    }
+
+    .splash{
+        margin-top: 60px;
+        margin-left: 650px;
+        
+    }
+
+    .sangre{
+        height: 150px;
+        width: 250px;
+
+    }
+
